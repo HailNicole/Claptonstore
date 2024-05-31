@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+:root{
+	--primary-color: #FFB87D;
+	--background-color: #FFC0A4;
+	--dark-color: #151515;
+	--nav-color: #FFF8F2;
+	--content-inicio: #FFCDA4;
+	--blanco: #FFFFFF;
+	--form: #FFC698;
+	--gris:#E8D6C8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    text-align: left;
+	line-height: 1.5;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+	font-family:Mifuente, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    margin: 0px 70px 0px 70px;
+}
+
+#contenido{
+	background: var(--primary-color);
+	margin: 0px;
+	padding:15px 15px 15px 15px;
+	height:100%;
+}
+.seccion{
+	background: var(--blanco);
+	width: 75%;
+	float:left;
+}
+.agrupar{
+	border:1px;
+	margin: auto;
+	width:100%;
+}
+
+.contenedor-section{
+	padding: 15px;
+	margin:10px 60px 10px 60px;
+	background: var(--gris);
+	border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.contenedor-form{
+    display: flex;
+}
+
+form{
+	width:100%;
+	text-align: justify;
+	line-height: 2.5;
+	font-size: 24px;
+}
+
+/*.div1{
+	display:flex;
+	gap: 2rem;
+	padding: 10px;
+	margin: auto;
+    justify-content: center;
+    align-items: center;
+}*/
+
+form>div{
+	border: 1px solid black;
+}
+
+input {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+input[type="text"]{
+	height: 30px;;
+	width: 35%;
+}
+
+input[type="file"]{
+	height: 30px;;
+}
+
+input[type="email"], input[type="password"]{
+	height: 30px;;
+	width: 50%;
+}
+input[type="submit"], [type="reset"]{
+    background-color: white; /* Color de fondo */
+    border: none; /* Elimina el borde */
+    color: black; /* Color del texto */
+    padding: 10px 20px; /* Relleno interno */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Elimina la decoración de texto predeterminada */
+    display: inline-block; /* Hace que el elemento sea un bloque en línea */
+    font-size: 20px; /* Tamaño de fuente */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+input[type="submit"]{
+	margin-left:25%;
+}
+
+input[type="reset"]{
+	margin-left:25%;
+}
+
+select{
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+	width: 100%;
+	height: 30px;
+}
+
+.clearfix {
+    clear: both;
+}

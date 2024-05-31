@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+:root{
+	--primary-color: #FFB87D;
+	--background-color: #FFC0A4;
+	--dark-color: #151515;
+	--nav-color: #FFF8F2;
+	--content-inicio: #FFCDA4;
+	--blanco: #FFFFFF;
+	--articulo: #F29E63;
+	--contenido-articulo: #CFAA90;
+}
+
+.aside-seccion{
+	width:400px;
+	border: 1px;
+	float:right;
+	background: var(--blanco);
+}
+
+.contenedor-aside{
+	margin: 10px;
+	padding: 5px;
+}
+
+.contenedor-aside h1{
+	text-align:center;
+}
+
+.contenedor-aside h2{
+	text-align:center;
+	font-size:25px;
+	margin-bottom: 0rem;
+}
+
+.articulos{
+	background: var(--articulo);
+	margin-top: 30px;
+}
+
+.contenedor-articulo-eric-clapton{
+	background: var(--contenido-articulo);
+	border: 2px solid #000;
+}
+
+.titulo-articulo{
+	padding-bottom: 10px;
+}
+
+.imagen-articulo{
+	overflow: hidden;
+	padding: 0px 15px 0px 15px;
+}
+
+.imagen-articulo img {
+    max-width: 100%; /* La imagen nunca será más ancha que el contenedor */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+    display: block; /* Para evitar espacios no deseados debajo de la imagen */
+}
+
+.contenido-articulo{
+	background: var(--contenido-articulo);
+}
+
+.contenido-articulo p{
+	text-align:justify;
+	padding: 10px 15px 15px;
+	margin: 0px;
+}
+
+.contenedor-articulo-perfil{
+	background: #C8AF9D;
+	margin-top: 15px;
+	border: 2px solid #000;
+}
+
+.titulo-articulo-perfil{
+	padding-bottom: 10px;
+}
+
+.imagen-articulo-perfil{
+	overflow: hidden;
+	padding: 10px;
+}
+
+.imagen-articulo-perfil img{
+    max-width: 100%; /* La imagen nunca será más ancha que el contenedor */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+    display: block; /* Para evitar espacios no deseados debajo de la imagen */
+}
+
+.contenido-articulo-perfil{
+	background: var(--contenido-articulo);
+}
+
+.contenido-articulo-perfil p{
+	text-align:justify;
+	padding: 10px 15px 15px;
+	margin: 0px;
+}
+
+.link-linkedin{
+	background: white;
+	text-align:center;
+	padding: 10px 15px 15px;
+	margin: 20px;
+	border: 1px solid #000;
+}

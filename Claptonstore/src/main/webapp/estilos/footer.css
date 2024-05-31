@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+.global-footer{
+	overflow: hidden;
+ 	background-color: #eac8af;
+ 	/*padding: 20px 10px;*/
+ 	text-align: center;
+ 	border-top: 2px solid #000;
+}
+
+.contenedor-footer{
+	display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 40px 20px 40px;
+}
+
+.columna1{
+	padding-bottom: 15px;
+    padding-right: 15px;
+    max-height: 160px;
+    max-width: 200px;
+    margin: auto;
+    margin-left: 0px;
+}
+
+.logo-footer{
+	max-width: 100%; /* La imagen nunca será más ancha que el contenedor */
+	max-height: 100%;
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+    display: block; /* Para evitar espacios no deseados debajo de la imagen */
+    
+}
+
+.columna2{
+	text-align: left;
+}
+
+.columna3{
+	text-align: left;
+}
+
+.global-footer h3{
+	display: inline-block;
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 20px;
+	border-bottom: 1px solid #000;
+}
+
+.global-footer li{
+	text-align: left;
+	line-height: 2.5;
+	font-size: 15px;
+}
+
+.global-footer ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.global-footer a{
+	text-decoration: none; /* Quitar el subrayado */
+	color: black;
+}
+
+.global-footer .footer-bottom {
+    background: #000;
+    font-size: 12px;
+    min-height: 50px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.footer-bottom>div {
+    margin: 0 auto;
+    padding: 16px 0;
+    color: white;
+}
